@@ -14,6 +14,11 @@ const server = http.createServer((req,res) => {
         filePath = 'contact-me.html';
     }else if(req.url === '/index.js'){
         filePath = 'index.js';
+
+
+    }
+    else if(req.url === '/style.css'){
+        filePath = 'style.css';
     }
     else{
         filePath = '404.html';

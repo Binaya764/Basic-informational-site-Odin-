@@ -1,0 +1,32 @@
+
+body{
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 0.5) 0%, rgba(87, 199, 133, 0.8) 50%, rgba(237, 221, 83, 0.8) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: none;
+}
+button{
+    margin: 0px;
+    border: none;
+    border-radius: 1rem;
+    background-color: transparent;
+    margin-left: 2vmin;
+}
+
+.navbar{
+    background-color: antiquewhite;
+    width: 35vw;
+    height: 4vh;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+
+    
+}
