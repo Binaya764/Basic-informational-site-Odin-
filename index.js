@@ -7,17 +7,18 @@ const server = http.createServer((req,res) => {
     if(req.url === '/'){
         filePath = 'index.html';
 
-    }else if (req.url === '/about'){
+    }else if (req.url === 'about'){
         filePath = 'about.html';
 
-    }else if(req.url === '/contact-me'){
+    }else if(req.url === 'contact-me'){
         filePath = 'contact-me.html';
-    }else if(req.url === '/index.js'){
+        
+    }else if(req.url === 'index.js'){
         filePath = 'index.js';
 
 
     }
-    else if(req.url === '/style.css'){
+    else if(req.url === 'style.css'){
         filePath = 'style.css';
     }
     else{
