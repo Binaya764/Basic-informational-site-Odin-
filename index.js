@@ -16,6 +16,9 @@ const server = http.createServer((req,res) => {
     }else if(req.url === '/index.js'){
         filePath = 'index.js';
     }
+    else if(req.url === '/script.js'){
+        filePath = 'script.js';
+    }
 
     else if(req.url === '/style.css'){
         filePath = 'style.css';
