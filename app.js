@@ -9,8 +9,9 @@ app.use("/authors", authorRouter);
 app.use("/books", bookRouter);
 app.use("/index", indexRouter);
 
-/*
+
 app.use(express.static('public'));
+
 app.get("/",(req,res)=>
 {
     res.sendFile(path.join(__dirname, "index.html"));
@@ -22,7 +23,7 @@ app.get("/about", (req,res)=>{
 app.get("/contact-me",(req,res)=>{
     res.sendFile(path.join(__dirname, "contact-me.html"));
 });
-*/
+
 
 const PORT = 3000;
 app.listen(PORT, (error)=>{
